@@ -1,0 +1,8 @@
+result = 0
+i = 0 
+while i < 5:
+    x = int(input("Choose number:"))
+    result += x
+    i += 1
+    
+print("Sum od 5 numbers: ", result)
